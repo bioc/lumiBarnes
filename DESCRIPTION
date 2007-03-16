@@ -1,0 +1,11 @@
+Package: lumiBarnes
+Type: Package
+Title: Barnes Benchmark Illumina Tissues Titration Data 
+Version: 1.0.1
+Date: 2007-02-28
+Author: Pan Du
+Maintainer: Pan Du <dupan@northwestern.edu>
+Description: The Barnes data set measured a dilution series of two human tissues, brain and placenta. It includes six samples with the titration ratio of brain and placenta as 100:0, 95:5, 75:25, 50:50, 25:75 and 0:100. The samples were hybridized on HumanRef-8 BeadChip (Illumina, Inc) in duplicate.
+License: LGPL
+Depends: R (>= 2.0), lumi (>= 1.0.0)
+biocViews: ExperimentData
