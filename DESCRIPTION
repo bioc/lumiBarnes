@@ -1,11 +1,11 @@
 Package: lumiBarnes
 Type: Package
 Title: Barnes Benchmark Illumina Tissues Titration Data 
-Version: 1.7.0
+Version: 1.7.1
 Date: 2010-10-12
 Author: Pan Du
 Maintainer: Pan Du <dupan@northwestern.edu>
 Description: The Barnes benchmark dataset can be used  to evaluate the algorithms for Illumina microarrays. It measured a titration series of two human tissues, blood and placenta, and includes six samples with the titration ratio of blood and placenta as 100:0, 95:5, 75:25, 50:50, 25:75 and 0:100. The samples were hybridized on HumanRef-8 BeadChip (Illumina, Inc) in duplicate. The data is loaded as an LumiBatch Object (see documents in the lumi package).
 License: LGPL
 Depends: R (>= 2.0), Biobase (>= 2.5.5), lumi (>= 1.1.0)
-biocViews: ExperimentData, OneChannel, RNAExpressionData, NormalTissue
+biocViews: ExperimentData, RNASeqData, Tissue, MicroarrayData, ChipOnChipData
